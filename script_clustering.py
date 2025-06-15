@@ -11,7 +11,7 @@ import logging
 from datetime import datetime
 
 # Configuration
-# The paper uses LLaVA NeXT Video 7B for MLLM and Llama-3.1-8B for LLM
+# The paper uses LLaVA NeXT Video 7B for MLLM but we use a lighter model for LLM than in the paper
 MLLM_MODEL = 'ManishThota/llava_next_video:latest'
 LLM_MODEL = 'llama3.1:8b'
 
