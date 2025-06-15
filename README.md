@@ -22,7 +22,7 @@ We reproduce the **caption-based pipeline** of X-Cluster using:
 
 * **MLLM:** [`ManishThota/llava_next_video`](https://ollama.com/library/llava-next-video)
 * **LLM:** `llama3.1:8b` (via [Ollama](https://ollama.com))
-* **Dataset:** [Food-101](https://data.vision.ee.ethz.ch/cvl/food-101/) (used to approximate Food-4c)
+* **Dataset:** [Food-101](https://paperswithcode.com/dataset/food-101) 
 
 Due to hardware limitations, we process only **100 random images**, focusing on reproducibility over scale.
 
